@@ -1,0 +1,21 @@
+---
+title: "Practice"
+format: html
+editor: visual
+---
+
+**Feature selection**
+
+**my section of the introduction and literature review**
+
+Feature selection algorithms can be categorized into two main types: filter models and wrapper models. The filter model selects features based on general properties of the training data, without involving any learning algorithm. When dealing with a large number of features, the filter model is typically preferred for its computational efficiency. (Das, 2001; Kohavi et al., 1997).
+
+The wrapper model requires a specific learning algorithm for selecting features, using its performance to evaluate and determine which features to keep. This approach often identifies features that are better tailored to the chosen learning algorithm, leading to improved learning performance. However, it is generally more computationally intensive compared to the filter model. (Lan- gley, 1994).
+
+To leverage the strengths of both models, hybrid model algorithms have been developed to handle high-dimensional data. These algorithms primarily aim to integrate filter and wrapper methods to attain optimal performance with a specific learning algorithm while maintaining a time complexity comparable to that of filter algorithms. (Das, 2001).
+
+Within the filter model, feature selection algorithms can be further divided into two categories: feature weighting algorithms and subset search algorithms. Feature weighting algorithms assign weights to each feature individually and rank them based on their relevance to the target concept. (Kohavi et al., 1997). A feature is good and thus will be selected if its weight of relevance is greater than a threshold value. A well - known algorithm that relies on relevance evaluation is Relief (Kira et al., 1992).
+
+Subset search algorithms explore candidate feature subsets based on a specific evaluation measure that assesses the quality of each subset. The search concludes when an optimal subset is identified. (Liu et al.,1998). Effective evaluation measures for eliminating both irrelevant and redundant features include the consistency measure and the correlation measure. The consistency measure aims to identify the smallest set of features that can separate classes as reliably as the entire feature set. An inconsistency occurs when two instances share the same feature values but have different class labels. (Dash et al., 2000). 
+
+Hall (2000) posits that a correlation measure assesses the quality of feature subsets based on the idea that an optimal feature subset includes features that are highly correlated with the class but uncorrelated with each other.
